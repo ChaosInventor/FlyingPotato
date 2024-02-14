@@ -9,3 +9,6 @@ I've also removed all external google dependencies since I'm no sure if those
 contain sensitive secrets, just to make sure.
 
 You can find the original APK, `Flying potato.apk`, in the repo's root.
+
+This repository will be archived, I don't intend to continue this project's
+development.
