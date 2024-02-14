@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1501995612583778}
+  m_IsPrefabParent: 1
+--- !u!1 &1501995612583778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4683180632104722}
+  - component: {fileID: 114842311585633060}
+  m_Layer: 0
+  m_Name: Random Level Generator
+  m_TagString: RLG
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4683180632104722
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501995612583778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114842311585633060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501995612583778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeed312e82d40a4cbec61217bcca0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemys:
+  - {fileID: 1613362562828984, guid: 042b74ef59b493c4b9fbdc61a166a20a, type: 2}
+  - {fileID: 1370756957998246, guid: 5eb9fe9f8f1b1144391f3bd834907f27, type: 2}
+  - {fileID: 1891780772706440, guid: 655ef38d47f8f0d43b455c9fc250c02b, type: 2}
+  - {fileID: 1885620880192662, guid: 695d9031cb7524b45b28a23b3b278fa3, type: 2}
+  LastGen: {fileID: 0}
+  CurEnemys: []
+  DisX: 4.5
+  DisY: 1.1
+  LastDisFromPlayer: 0
+  LastPosX: 0
+  LastPosY: 0
+  MaxPosY: 2
+  MinPosY: -2.5
+  MaxEnemysPerRow: 5
+  MinEnemysPerRow: 1
